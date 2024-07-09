@@ -79,6 +79,7 @@ body {
     height: 785px;
     /* border: 1px solid #000; */
     margin: 0 auto;
+    margin-bottom: 128px;
 }
 
 .featured-flowers-text {
@@ -165,4 +166,92 @@ body {
 .third-flower-img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+}
+
+/* features styles */
+.features-container {
+    max-width: 1440px;
+    height: 320px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 128px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.first-feature,
+.second-feature,
+.third-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.features-container p {
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* sale styles */
+
+.sale-container {
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: -30px;
+    margin-bottom: 128px;
+}
+
+.sale-text {
+    width: 594px;
+    height: 228px;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-text h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.sale-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.sale-text button {
+    width: 155px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
 }
